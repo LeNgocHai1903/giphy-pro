@@ -4,7 +4,7 @@ const Modal = (props) => {
   return (
     <div className="fixed h-screen w-screen">
       <AiFillCloseCircle
-        className="absolute right-10 top-5 z-10 text-2xl"
+        className="absolute right-10 top-5 z-10 text-2xl cursor-pointer"
         onClick={props.toogle}
       />
       <div>

@@ -9,7 +9,7 @@ const Card = (props) => {
   return (
     <div onClick={props.openModal} ref={props.gifsRef}>
       <div className="card-item">
-        <div className="flex justify-center">
+        <div className="flex justify-center cursor-pointer">
           <img
             className="card-image md:p-2 p-1"
             alt={props.giphy.url}
